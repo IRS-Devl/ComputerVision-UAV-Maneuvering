@@ -1,6 +1,6 @@
 '''
 Face tracking code to keep the face withing a certain range of pixels by sending feedbacks to the drone.
-Developed by: Anmol Singh.
+Developed by: Anmol Singh in collaboration with the code and models provided by OpenCV courses.
 '''
 
 import numpy as np
