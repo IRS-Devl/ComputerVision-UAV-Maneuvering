@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+'''
+Author: Anmol Singh and Luxonis depthai experiment codes.
+Link to the original repository: https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-detection
+'''
 
 import cv2
 import depthai as dai
