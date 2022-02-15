@@ -1,5 +1,7 @@
 # Face Tracker Description:
 
+[![forthebadge](https://forthebadge.com/generator/?plabel=MADE+WITH&slabel=DepthAI&pbg=%23DC2543)](https://forthebadge.com)
+
 ## Hardware requirements:
 - Raspberry pi 3 Model B(and all it accessories: SD card,power adaptor,keyboard,monitor,mouse,hdmi cable...)
 - 1 OAK-D Lite Camera
