@@ -4,7 +4,7 @@
 ![Img](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/tree/main/UniAxisFaceTracker/depthai.png)
 
 ## Hardware requirements:
-- Raspberry pi 3 Model B(and all it accessories: SD card,power adaptor,keyboard,monitor,mouse,hdmi cable...)
+- Raspberry pi 3 Model B+
 - 1 OAK-D Lite Camera
 - 1 MG90S Micro Servo motor(and its accessories)
 - USB to USB-C cable for the camera
