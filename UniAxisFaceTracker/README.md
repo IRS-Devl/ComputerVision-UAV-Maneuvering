@@ -1,3 +1,3 @@
-## Face Tracker Description:
+# Face Tracker Description:
 
-### Hardware requirements:
+## Hardware requirements:
