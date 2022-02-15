@@ -4,6 +4,7 @@
 
 
 ![Img](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/depthai.png)
+![Img2](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/opencv.png)
 
 ## Hardware requirements:
 - Raspberry pi 3 Model B+
