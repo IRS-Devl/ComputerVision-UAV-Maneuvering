@@ -1,7 +1,7 @@
 # Face Tracker Description:
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) 
-![Image1](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/tree/main/UniAxisFaceTracker)
+![Image1](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/tree/main/UniAxisFaceTracker/made-with-depthai.svg)
 
 ## Hardware requirements:
 - Raspberry pi 3 Model B(and all it accessories: SD card,power adaptor,keyboard,monitor,mouse,hdmi cable...)
