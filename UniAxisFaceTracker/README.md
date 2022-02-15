@@ -4,6 +4,9 @@
 - Raspberry pi 3 Model B(and all it accessories: SD card,power adaptor,keyboard,monitor,mouse,hdmi cable...)
 - 1 OAK-D Lite Camera
 - 1 MG90S Micro Servo motor(and its accessories)
-- USB to USB-C cable
+- USB to USB-C cable for the camera
 - 3 Male to female jumper wires
 
+## About the code:
+The neural network inference is carried out on oak d lite camera.
+The servo is being controlled by the rpi based on the face detections captured in the frame.
