@@ -13,6 +13,13 @@
 - USB to USB-C cable for the camera
 - 3 Male to female jumper wires
 
+If powering up the motor is not desired from the raspberry pi then additional components can be used:
+- 15V battery
+- Buck Convertor(15V to 5V)
+- Breadboard
+- Extra jumper wires 
+
+
 ## About the code
 YuNet face detection model is used to detect faces in the frame. The neural network inference is carried out by oak d lite camera mounted upon a servo motor which in turn is controlled by the raspberry pi. The aim of this code is to detect a face, track and keep it in the center of the camera frame within a certain threshold range of pixels values. Simultaenously, computer vision based feedback instructions for motor actuation, bounding boxes, relevant coordinates for reference and tracking are displayed in the frame itself while the code is running to make it more comprehensive and intuitive. As only one motor is controlled, the camera tracks faces about z axis(yaw movement). Also, the code is designed to track only one object at a time and the workspace of the camera is a semi-circle due to the servo motor rotation limitations.
 
