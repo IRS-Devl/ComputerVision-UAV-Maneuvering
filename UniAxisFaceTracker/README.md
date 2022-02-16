@@ -33,13 +33,12 @@ Note: The live face detection feed and face tracking won't be displayed if the r
 Additionally run the following commands on the raspberrypi terminal:
 - $ sudo apt-get update
 - $ sudo apt-get upgrade
-- $ pip3 install virtualenv
 
 ## Steps
 Run the following commands on the rapberrypi terminal:
 - Create a folder on Desktop named FaceTracker where the codes and virtual environment exists
 - Create a virtual environment under the name of Drone in the above folder
-    - $ python -m venv [directory_name]
+    - $ python3 -m venv <path_to_virtualenv>
 
 ## Face Tracking setup and Results
 ![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
