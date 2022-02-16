@@ -23,7 +23,10 @@ In order to deploy the code, certain steps have to be followed. A virtual enviro
 While deploying the code, make sure to give the correct path to the blob file here in the Drone.py according to the file structured followed.
 line 50: parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='/home/pi/Desktop/Facetracker/face_detection_yunet_120x160.blob', type=str)
 
+## Face Tracking setup and Results
+
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
 * [Luxonis Depthai Experiments](https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-detection)
 (The face detection model and its deployment code on oak d lite camera is taken from the above given link.)
+* https://github.com/OlanrewajuDada (Credits for Face Tracking Results GIF)
