@@ -37,7 +37,7 @@ Additionally run the following commands on the raspberrypi terminal:
 ## Steps
 Run the following commands on the rapberrypi terminal:
 - Create a folder on Desktop named FaceTracker where the codes and virtual environment exists
-- Create a virtual environment under the name of Drone in the above folder
+- Create a virtual environment named "Drone" in the above folder
     - $ python3 -m Drone <path_to_virtualenv>
 
 ## Face Tracking setup and Results
