@@ -32,6 +32,7 @@ line 50: parser.add_argument("-nn", "--nn_model", help="select model path for in
 
 ## Face Tracking setup and Results
 ![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
+![Setup](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
 
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
