@@ -21,7 +21,7 @@ YuNet face detection model is used to detect faces in the frame. The neural netw
 
 
 ## Tips to run the code
-In order to deploy the code, certain steps have to be followed. A virtual environment for python has to be setup, in which the dependencies given in the facetrackreq.txt file has to be downloaded. Once this is done the drone.py file can be executed directly to view the results.
+In order to deploy the code, certain steps have to be followed. A virtual environment for python has to be setup, in which the dependencies given in the facetrackreq.txt file has to be installed. Once this is done the drone.py file can be executed directly to view the results.
 
 While deploying the code, make sure to give the correct path to the blob file here in the Drone.py according to the file structured followed.
 line 50: parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='/home/pi/Desktop/Facetracker/face_detection_yunet_120x160.blob', type=str)
@@ -37,15 +37,20 @@ Additionally run the following commands on the raspberrypi terminal:
 ## Steps
 Run the following commands on the rapberrypi terminal:
 - Create a folder on Desktop named FaceTracker where the codes and virtual environment exists
+    - Clone the folder utilcode
+    - Clone the file Drone.py
+    - Clone the text file facetrackreq.txt
+    - Clone the face detection model: face_detection_yunet_120x160.blob
 - Create a virtual environment named "Drone" in the above folder
     - $ python3 -m Drone <path_to_virtualenv>
     - $ source ./Drone/bin/activate (to activate the virtual environment
     - $ deactivate (to deactivate the virtual environment
 - Install the dependencies for the code to work.
     - $ pip3 install -r facetrackreq.txt
+- Make changes to blob file path accordingly to file directory structure
 - Execute the code with all hardware connected
     - $ python3 Drone.py
-    - ctrl + C to terminate the code(Keyboard Interrupt)
+    - Ctrl + C to terminate the code(Keyboard Interrupt)
 
 ## Face Tracking setup and Results
 ![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
