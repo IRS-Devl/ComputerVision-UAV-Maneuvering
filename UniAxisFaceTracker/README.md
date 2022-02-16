@@ -31,6 +31,7 @@ While deploying the code, make sure to give the correct path to the blob file he
 line 50: parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='/home/pi/Desktop/Facetracker/face_detection_yunet_120x160.blob', type=str)
 
 ## Face Tracking setup and Results
+![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
 
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
