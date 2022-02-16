@@ -39,6 +39,10 @@ Run the following commands on the rapberrypi terminal:
 - Create a folder on Desktop named FaceTracker where the codes and virtual environment exists
 - Create a virtual environment named "Drone" in the above folder
     - $ python3 -m Drone <path_to_virtualenv>
+    - $ source ./Drone/bin/activate (to activate the virtual environment
+    - $ deactivate (to deactivate the virtual environment
+- Install the dependencies for the code to work.
+    - $ pip3 install -r facetrackreq.txt
 
 ## Face Tracking setup and Results
 ![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
