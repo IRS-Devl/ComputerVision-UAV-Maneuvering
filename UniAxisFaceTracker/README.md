@@ -30,11 +30,20 @@ line 50: parser.add_argument("-nn", "--nn_model", help="select model path for in
 Complete setup of raspbian on raspberrypi 3B/3B+/4B. It should be up and running connected via monitor,keyboard,mouse,wifi/ethernet.
 Note: The live face detection feed and face tracking won't be displayed if the raspberrypi is connected via ssh.
 
+Additionally run the following commands on the raspberrypi terminal:
+- $ sudo apt-get update
+- $ sudo apt-get upgrade
+- $ pip3 install virtualenv
+
+## Steps
+Run the following commands on the rapberrypi terminal:
+- Create a folder on Desktop named FaceTracker where the codes and virtual environment exists
+- Create a virtual environment under the name of Drone in the above folder
+    - $ python -m venv [directory_name]
+
 ## Face Tracking setup and Results
 ![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
 ![Setup](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
-
-## Steps
 
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
