@@ -2,6 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) ![Img](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/made-with-depthai.svg)![Img2](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/made-with-opencv.svg)![Img3](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/oak-d-lite-camera.svg)
 
+
 ## Aim
 The aim of this code is based on the theme: "Computer Vision based feedback on maneuvering of unamnned aerial vehicles". The camera detects an object in the frame and actuates the motors in a way such that the object is tracked and centered in the frame at all times. This is crucial to keep the test object in the frame when the UAV has to follow the particular test object and accomplish some mission autonomously.
 
