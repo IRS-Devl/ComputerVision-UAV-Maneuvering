@@ -79,6 +79,10 @@ Run the following commands on the rapberrypi terminal:
 ## Challenges
 The biggest challenge encountered in the making of this project was finding the correct face detection model,configuring the oak d camera and deploying the precompiled blob file on the hardware. The deployment code and the blob file for the above hardware was already ready which eased life to an extent. Finding this was the challenge.
 
+## Improvements
+- Fine tuning the servo motor rotation parameters to get a smooth rotation of the camera.
+- Setting up the parameters such that the motor rotation copes up with the rate of pixel change of the detections in the frame.
+
 ## Face Tracking setup and Results
 ![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
 ![CamMotion](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/CamMotion.gif)
