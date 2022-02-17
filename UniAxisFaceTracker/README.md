@@ -47,7 +47,7 @@ Run the following commands on the rapberrypi terminal:
     - $ deactivate (to deactivate the virtual environment
 - Install the dependencies for the code to work.
     - $ pip3 install -r facetrackreq.txt
-        Adiitionally run the following commands in the activated python environment
+    - Additionally run the following commands in the activated python environment
             - $ sudo apt-get update
             - $ sudo apt-get upgrade
 - Make changes to blob file path accordingly to file directory structure
