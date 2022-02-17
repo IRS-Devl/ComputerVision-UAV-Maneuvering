@@ -29,10 +29,10 @@ Regarding the hardware setup, a few things needs te be taken care of before actu
         - >>> pwm = GPIO.PWM(signalpin,50)
         - >>> pwm.start(2)                      (Takes the servo to 0deg position)
         - >>> pwm.ChangeDutyCycle(7)            (Takes the servo to 90deg)
-        - pwm.ChangeDutyCycle(0)                (Temporarily stops the pwm signals)
-        - pwm.stop()                            (stops the pwm signals from the raspberrypi GPIO pin)
-        - GPIO.cleanup()                        (cleans up the GPIO pins)
-        - quit()                                (quit the python shell)
+        - >>> pwm.ChangeDutyCycle(0)                (Temporarily stops the pwm signals)
+        - >>> pwm.stop()                            (stops the pwm signals from the raspberrypi GPIO pin)
+        - >>> GPIO.cleanup()                        (cleans up the GPIO pins)
+        - >>> quit()                                (quit the python shell)
     - Once these steps are done, you can mount the camera and then follow with the final steps of executing the Drone.py file)
 
 ## About the code
