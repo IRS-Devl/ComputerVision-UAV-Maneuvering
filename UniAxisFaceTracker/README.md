@@ -48,8 +48,8 @@ Run the following commands on the rapberrypi terminal:
 - Install the dependencies for the code to work.
     - $ pip3 install -r facetrackreq.txt
     - Additionally run the following commands in the activated python environment
-            - $ sudo apt-get update
-            - $ sudo apt-get upgrade
+        - $ sudo apt-get update
+        - $ sudo apt-get upgrade
 - Make changes to blob file path accordingly to file directory structure
 - Execute the code with all hardware connected
     - $ python3 Drone.py
