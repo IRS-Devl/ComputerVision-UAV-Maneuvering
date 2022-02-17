@@ -36,17 +36,20 @@ Additionally run the following commands on the raspberrypi terminal:
 
 ## Steps
 Run the following commands on the rapberrypi terminal:
-- Create a folder on Desktop named FaceTracker where the codes and virtual environment exists
-    - Clone the folder utilcode
-    - Clone the file Drone.py
-    - Clone the text file facetrackreq.txt
-    - Clone the face detection model: face_detection_yunet_120x160.blob
+- Create a folder on Desktop named FaceTracker where the codes and virtual environment exists, then clone the following files in the folder
+    - Clone the folder utilcode (other modules imported in the master python file)
+    - Clone the file Drone.py (master python file to execute the face tracking code)
+    - Clone the text file facetrackreq.txt (requirements.txt file - dependencies)
+    - Clone the face detection model: face_detection_yunet_120x160.blob (face detection model)
 - Create a virtual environment named "Drone" in the above folder
     - $ python3 -m Drone <path_to_virtualenv>
     - $ source ./Drone/bin/activate (to activate the virtual environment
     - $ deactivate (to deactivate the virtual environment
 - Install the dependencies for the code to work.
     - $ pip3 install -r facetrackreq.txt
+        Adiitionally run the following commands in the activated python environment
+            - $ sudo apt-get update
+            - $ sudo apt-get upgrade
 - Make changes to blob file path accordingly to file directory structure
 - Execute the code with all hardware connected
     - $ python3 Drone.py
@@ -54,6 +57,7 @@ Run the following commands on the rapberrypi terminal:
 
 ## Face Tracking setup and Results
 ![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
+![CamMotion](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/CamMotion.gif)
 ![Setup](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
 
 ## Contributors
