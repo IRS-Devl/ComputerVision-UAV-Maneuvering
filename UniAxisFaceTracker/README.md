@@ -2,6 +2,19 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) ![Img](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/made-with-depthai.svg)![Img2](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/made-with-opencv.svg)![Img3](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/oak-d-lite-camera.svg)
 
+# Table of Contents
+1. [Aim](#aim)
+2. [Hardware requirements and setup](#hardware-requirements-and-setup)
+3. [About the code](#about-the-code)
+4. [Tips to run the code](#tips-to-run-the-code)
+5. [Prerequisites](#prerequisites)
+6. [Steps](#steps)
+7. [Challenges](#challenges)
+8. [Improvements](#improvements)
+9. [Face tracking results and setup](#face-tracking-results-and-setup)
+10. [Contributors](#contributors)
+
+
 
 ## Aim
 The aim of this code is based on the theme: "Computer Vision based feedback on maneuvering of unmanned aerial vehicles". The camera detects an object in the frame and actuates the motors in a way such that the object is tracked and centered in the frame at all times. This is crucial to keep the test object in the frame when the UAV has to follow the particular test object and accomplish some mission autonomously.
@@ -148,7 +161,7 @@ The biggest challenge encountered in the making of this project was finding the 
 - Setting up the parameters such that the motor rotation copes up with the rate of pixel change of the detections in the frame.
 - Extending the setup to three servo motor actuations in order to get yaw,pitch and roll movements of the camera (3 degrees of freedom).
 
-## Face Tracking setup and Results
+## Face tracking setup and results
 ![GIF facetrack](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceGIF.gif)
 ![CamMotion](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/CamMotion.gif)
 ![Setup](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
