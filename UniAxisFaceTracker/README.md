@@ -57,10 +57,10 @@ Note: The live face detection feed and face tracking won't be displayed if the r
 
 Additionally run the following commands on the raspberrypi terminal:
 ```bash
-sudo apt-get update
+    sudo apt-get update
 ```
 ```bash
-sudo apt-get upgrade
+    sudo apt-get upgrade
 ```
 
 ## Steps
