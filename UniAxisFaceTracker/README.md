@@ -71,7 +71,7 @@ Run the following commands on the rapberrypi terminal:
     - $ source ./Drone/bin/activate (to activate the virtual environment
     - $ deactivate (to deactivate the virtual environment)
 - Install the dependencies for the code to work.
-    - $ pip3 install -r facetrackreq.txt
+    - $ python -m pip3 install -r facetrackreq.txt
     - Additionally run the following commands in the activated python environment
         - $ sudo apt-get update
         - $ sudo apt-get upgrade
