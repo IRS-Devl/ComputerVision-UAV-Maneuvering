@@ -83,8 +83,10 @@ Note: If more than one face are in the frame then the model would get confused a
 In order to deploy the code, certain steps have to be followed. A virtual environment for python has to be setup, in which the dependencies given in the facetrackreq.txt file has to be installed. Once this is done the drone.py file can be executed directly to view the results.
 
 While deploying the code, make sure to give the correct path to the blob file here in the Drone.py according to the file structured followed.
-line 50: parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='/home/pi/Desktop/Facetracker/face_detection_yunet_120x160.blob', type=str)
-
+line 50: 
+```python
+parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='/home/pi/Desktop/Facetracker/face_detection_yunet_120x160.blob', type=str)
+```
 
 ## Prerequisites
 Complete setup of raspbian on raspberrypi 3B/3B+/4B. It should be up and running connected via monitor,keyboard,mouse,wifi/ethernet.
