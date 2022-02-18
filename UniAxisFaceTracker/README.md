@@ -56,12 +56,12 @@ Complete setup of raspbian on raspberrypi 3B/3B+/4B. It should be up and running
 Note: The live face detection feed and face tracking won't be displayed if the raspberrypi is connected via ssh.
 
 Additionally run the following commands on the raspberrypi terminal:
-    ```bash
+```bash
     sudo apt-get update
-    ```
-    ```bash
+```
+```bash
     sudo apt-get upgrade
-    ```
+```
 
 ## Steps
 Run the following commands on the rapberrypi terminal:
@@ -72,35 +72,35 @@ Run the following commands on the rapberrypi terminal:
     - Clone the face detection model: face_detection_yunet_120x160.blob (face detection model)
 - Create a virtual environment named "Drone" in the above folder
     ```bash
-    python3 -m Drone <path_to_virtualenv>
+        python3 -m Drone <path_to_virtualenv>
     ```
     Activate the virtual environment
     ```bash
-    source ./Drone/bin/activate 
+        source ./Drone/bin/activate 
     ```
     Deactivate the virtual environment
     ```bash
-    deactivate 
+        deactivate 
     ```
 - Install the dependencies for the code to work.
     ```bash
-    python -m pip3 install -r facetrackreq.txt
+        python -m pip3 install -r facetrackreq.txt
     ```
    - Additionally run the following commands in the activated python environment
         ```bash
-        sudo apt-get update
+            sudo apt-get update
         ```
         ```bash
-        sudo apt-get upgrade
+            sudo apt-get upgrade
         ```
 - Make changes to blob file path accordingly to file directory structure
 - Execute the code with all hardware connected as well as the correct file path for the model has been mentioned in the code
     ```bash
-    python3 Drone.py
+        python3 Drone.py
     ```
 - Terminate the code (Ctrl + C : Keyboard Interrupt)
     ```bash
-    ^C
+        ^C
     ```
 
 ## Challenges
