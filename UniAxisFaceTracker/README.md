@@ -67,14 +67,28 @@ Run the following commands on the rapberrypi terminal:
     - Clone the text file facetrackreq.txt (requirements.txt file - dependencies)
     - Clone the face detection model: face_detection_yunet_120x160.blob (face detection model)
 - Create a virtual environment named "Drone" in the above folder
-    - $ python3 -m Drone <path_to_virtualenv>
-    - $ source ./Drone/bin/activate (to activate the virtual environment
-    - $ deactivate (to deactivate the virtual environment)
+    ```bash
+    python3 -m Drone <path_to_virtualenv>
+    ```
+    Activate the virtual environment
+    ```bash
+    source ./Drone/bin/activate 
+    ```
+    Deactivate the virtual environment
+    ```bash
+    deactivate 
+    ```
 - Install the dependencies for the code to work.
-    - $ python -m pip3 install -r facetrackreq.txt
-    - Additionally run the following commands in the activated python environment
-        - $ sudo apt-get update
-        - $ sudo apt-get upgrade
+    ```bash
+    python -m pip3 install -r facetrackreq.txt
+    ```
+   - Additionally run the following commands in the activated python environment
+        ```bash
+        sudo apt-get update
+        ```
+        ```bash
+        sudo apt-get upgrade
+        ```
 - Make changes to blob file path accordingly to file directory structure
 - Execute the code with all hardware connected as well as the correct file path for the model has been mentioned in the code
     - $ python3 Drone.py
