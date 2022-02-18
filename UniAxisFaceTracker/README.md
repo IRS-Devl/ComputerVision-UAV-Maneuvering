@@ -56,12 +56,12 @@ Complete setup of raspbian on raspberrypi 3B/3B+/4B. It should be up and running
 Note: The live face detection feed and face tracking won't be displayed if the raspberrypi is connected via ssh.
 
 Additionally run the following commands on the raspberrypi terminal:
-```bash
+    ```bash
     sudo apt-get update
-```
-```bash
+    ```
+    ```bash
     sudo apt-get upgrade
-```
+    ```
 
 ## Steps
 Run the following commands on the rapberrypi terminal:
